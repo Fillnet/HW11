@@ -93,19 +93,19 @@ public class Main {
 //        printSeason(9);
 //
     public static void main(String[] args) {
-        System.out.println("Задание 1");
+        System.out.println("Задание 1: Определение является ли год високосным");
         leapYear(2024);
-        System.out.println("Задание 2");
+        System.out.println("Задание 2: установка актуальной ОС");
         osVersion(0, 2014);
-        System.out.println("Задание 3");
+        System.out.println("Задание 3: доставка карты клиенту");
         int deliveryDays = calculateDeliveryDays(95);
         System.out.println(" Потребуется дней: " + deliveryDays);
-        System.out.println("Задание 4");
+        System.out.println("Задание 4: вычисление минимального числа");
         int a = 24567;
         int b = 232652637;
         minMAx(a, b);
         System.out.println();
-        System.out.println("Задание 5");
+        System.out.println("Задание 5: четное нечетное");
         int c = 8;
         System.out.printf("Число %s четное: %s ", c, evenOdd(c));
         System.out.println();
@@ -122,7 +122,7 @@ public class Main {
         int e = 2;
         System.out.printf(" Куб числа %s равен: %s ", e, tripple(e));
         System.out.println();
-        System.out.println("Задание 9");
+        System.out.println("Задание 9: какое число боьше");
         int f = 9;
         int g = 8;
         System.out.printf("Число %s больше %s : %s ", f, g, moreLess(f, g));
@@ -132,16 +132,16 @@ public class Main {
         System.out.println(Arrays.toString(sortArray));
         arraySort(sortArray);
         System.out.println(Arrays.toString(sortArray));
-        System.out.println("Задание 11");
+        System.out.println("Задание 11: вывод случайного вещественного числа в отрезке");
         double h = 9;
         System.out.println(randomNumbers(h));
-        System.out.println("Задание 12");
+        System.out.println("Задание 12: вывод целого случайного числа в отрезке");
         int j = 27;
         System.out.println(generate(j));
-        System.out.println("Задание 13");
+        System.out.println("Задание 13: округление до ближайшего целого числа");
         double k = 18.2458;
         System.out.println(roundUp(k));
-        System.out.println("Задание 13");
+        System.out.println("Задание 14: Генерирование случайного массива и вывод суммы ");
         int[] array = generateRandomArray(5);
         double average = calculateAverage(array);
         System.out.printf(" Average = %s %n", average);
