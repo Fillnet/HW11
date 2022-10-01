@@ -214,6 +214,7 @@ public class Main {
 
     public static double randomNumbers(double n) {
         return new Random().nextDouble() + n;
+        // тут непонятно как использовать, после nextDouble()в скобках ничего нельзя написать, не понятно почему?
     }
 
     public static int generate(int num) {
